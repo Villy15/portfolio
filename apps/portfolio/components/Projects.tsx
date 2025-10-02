@@ -1,6 +1,13 @@
 export default function Projects() {
   const projects = [
     {
+      title: 'OrgProfiler',
+      period: 'Aug 2025 – Oct 2025',
+      description:
+        'A portable training-free platform for automated brightfield and fluorescence analyses. OrgProfiler rapidly quantifies size, shape, and structural features across diverse organoid culture methods and cell types, generating standardized morphometric profiles',
+      technologies: ['React', 'FastAPI', 'sci-kit'],
+    },
+    {
       title: 'LAKBAY COOP',
       period: 'Sep 2023 – Jul 2024',
       description:
