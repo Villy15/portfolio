@@ -1,9 +1,9 @@
-import Header from "@/components/Header";
-import ContactInfo from "@/components/ContactInfo";
-import About from "@/components/About";
-import Stack from "@/components/Stack";
-import Experience from "@/components/Experience";
-import Projects from "@/components/Projects";
+import About from '@/components/About';
+import ContactInfo from '@/components/ContactInfo';
+import Experience from '@/components/Experience';
+import Header from '@/components/Header';
+import Projects from '@/components/Projects';
+import Stack from '@/components/Stack';
 
 export default function Home() {
   return (

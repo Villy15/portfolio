@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 export default function Header() {
   return (
@@ -12,7 +12,7 @@ export default function Header() {
         placeholder="blur"
         blurDataURL="/villy.png"
       />
-      <div className="flex flex-col justify-end items-start ml-8">
+      <div className="ml-8 flex flex-col items-start justify-end">
         <h1 className="text-3xl">Adrian Villanueva</h1>
         <p className="mb-4">Software Engineer</p>
       </div>

@@ -1,0 +1,9 @@
+# Ignore artifacts:
+build
+coverage
+
+# Shadcn UI
+packages/ui/src/components
+
+# pnpm lock file
+pnpm-lock.yaml
