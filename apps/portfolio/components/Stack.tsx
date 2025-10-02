@@ -6,7 +6,7 @@ export default function Stack() {
   };
 
   return (
-    <section className="mt-8">
+    <section id="stack" className="mt-8 scroll-mt-16">
       <h2 className="mb-4 text-2xl font-semibold">Stack</h2>
 
       <div className="space-y-6">

@@ -24,7 +24,7 @@ export default function Projects() {
   ];
 
   return (
-    <section className="mt-8">
+    <section id="projects" className="mt-8 scroll-mt-16">
       <h2 className="mb-6 text-2xl font-semibold">Projects</h2>
 
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2">

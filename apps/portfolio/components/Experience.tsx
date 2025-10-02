@@ -15,7 +15,7 @@ export default function Experience() {
   ];
 
   return (
-    <section className="mt-8">
+    <section id="experience" className="mt-8 scroll-mt-16">
       <h2 className="mb-6 text-2xl font-semibold">Experience</h2>
 
       <div className="space-y-8">
