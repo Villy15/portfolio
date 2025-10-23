@@ -34,7 +34,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <AppHeader />
           <main className="max-w-screen flex-1 overflow-x-hidden px-4 pb-8 pt-24 md:px-8">
-            <div className="mx-auto md:max-w-3xl">{children}</div>
+            <div className="xl mx-auto md:max-w-3xl lg:max-w-4xl">{children}</div>
           </main>
           <Footer />
         </ThemeProvider>
