@@ -38,8 +38,8 @@ export default function AppHeader() {
 
       {/* Desktop Navigation */}
       <nav className="hidden gap-4 md:flex">
-        {navItems.map((item) => (
-          <Button key={item.href} variant="ghost" asChild>
+        {navItems.map(item => (
+          <Button key={item.href} variant="ghost" asChild className="hover:bg-card">
             <Link href={item.href} className="flex items-center gap-2">
               <item.icon className="h-4 w-4" />
               {item.label}
@@ -69,7 +69,7 @@ export default function AppHeader() {
           </SheetTrigger>
           <SheetContent side="right" className="w-64">
             <nav className="mt-8 flex flex-col gap-4">
-              {navItems.map((item) => (
+              {navItems.map(item => (
                 <Button
                   key={item.href}
                   variant="ghost"
