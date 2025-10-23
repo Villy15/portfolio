@@ -48,7 +48,8 @@ export default function Experience() {
         {experiences.map((exp, index) => (
           <article
             key={index}
-            className="before:border-border relative before:absolute before:-left-[33px] before:top-1.5 before:h-[calc(100%+2rem)] before:border-l-2 last:before:h-60"
+            className="before:border-border last:before:h-90 relative before:absolute before:-left-[33px] before:top-1.5 before:h-[calc(100%+2rem)] before:border-l-2 md:last:before:h-60"
+            // className="before:border-border last:before:h-90 last:md:before:h-30 relative before:absolute before:-left-[33px] before:top-1.5 before:min-h-[calc(100%+2rem)] before:border-l-2"
           >
             {/* Timeline dot */}
             <div className="bg-primary border-background absolute -left-[37px] top-0 h-3 w-3 rounded-full border-2"></div>
