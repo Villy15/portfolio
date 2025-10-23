@@ -44,11 +44,14 @@ export default function Experience() {
       <h2 className="mb-2 text-[1.8rem] font-semibold leading-tight md:text-[2.3rem]">Experience</h2>
       <p className="text-muted-foreground mb-8">My professional journey and education background.</p>
 
-      <div className="border-border relative space-y-8 border-l-2 pl-8">
+      <div className="relative space-y-8 pl-8">
         {experiences.map((exp, index) => (
-          <article key={index} className="relative">
+          <article
+            key={index}
+            className="before:border-border relative before:absolute before:-left-[33px] before:top-1.5 before:h-[calc(100%+2rem)] before:border-l-2 last:before:h-60"
+          >
             {/* Timeline dot */}
-            <div className="bg-primary border-background absolute -left-[37px] top-1.5 h-3 w-3 rounded-full border-2"></div>
+            <div className="bg-primary border-background absolute -left-[37px] top-0 h-3 w-3 rounded-full border-2"></div>
 
             <div className="flex flex-wrap items-start justify-between gap-2">
               <div className="flex-1">
