@@ -1,16 +1,6 @@
 export default function Experience() {
   const experiences = [
     {
-      title: 'Software Engineer Intern',
-      company: 'Asurion',
-      location: 'Taguig, PH',
-      period: 'Jul 2024 – Dec 2024',
-      type: 'Internship',
-      description:
-        'Collaborated across the Expert Workspace Messaging and Digital Enrichments Device Care teams to integrate a Twilio-based messaging SDK with AI tools using AWS, automate deployments via GitHub Actions, and develop a React + Contentful CMS web app with optimized GraphQL queries—enhancing infrastructure efficiency, customer engagement, and content delivery.',
-      technologies: ['React', 'AWS', 'Twilio', 'GraphQL', 'Contentful CMS', 'GitHub Actions'],
-    },
-    {
       title: 'Freelance Software Engineer',
       company: 'Freelance',
       location: 'Remote',
@@ -19,6 +9,16 @@ export default function Experience() {
       description:
         'Developed a full-stack clinic EMR system featuring patient management, medical records, and a patient queue module—enabling doctors to efficiently manage consultations and generate digital prescriptions and medical certificates through a modern, responsive web interface. Also developed OrgProfiler, a portable, training-free platform for automated organoid image analysis.',
       technologies: ['React', 'Node.js', 'PostgreSQL', 'Next.js', 'Python', 'FastAPI'],
+    },
+    {
+      title: 'Software Engineer Intern',
+      company: 'Asurion',
+      location: 'Taguig, PH',
+      period: 'Jul 2024 – Dec 2024',
+      type: 'Internship',
+      description:
+        'Collaborated across the Expert Workspace Messaging and Digital Enrichments Device Care teams to integrate a Twilio-based messaging SDK with AI tools using AWS, automate deployments via GitHub Actions, and develop a React + Contentful CMS web app with optimized GraphQL queries—enhancing infrastructure efficiency, customer engagement, and content delivery.',
+      technologies: ['React', 'AWS', 'Twilio', 'GraphQL', 'Contentful CMS', 'GitHub Actions'],
     },
   ];
 
@@ -44,11 +44,11 @@ export default function Experience() {
       <h2 className="mb-2 text-[1.8rem] font-semibold leading-tight md:text-[2.3rem]">Experience</h2>
       <p className="text-muted-foreground mb-8">My professional journey and education background.</p>
 
-      <div className="relative space-y-8 border-l-2 border-border pl-8">
+      <div className="border-border relative space-y-8 border-l-2 pl-8">
         {experiences.map((exp, index) => (
           <article key={index} className="relative">
             {/* Timeline dot */}
-            <div className="bg-primary absolute -left-[37px] top-1.5 h-3 w-3 rounded-full border-2 border-background"></div>
+            <div className="bg-primary border-background absolute -left-[37px] top-1.5 h-3 w-3 rounded-full border-2"></div>
 
             <div className="flex flex-wrap items-start justify-between gap-2">
               <div className="flex-1">
@@ -77,7 +77,6 @@ export default function Experience() {
             </div>
           </article>
         ))}
-
       </div>
 
       {/* Education Section */}
