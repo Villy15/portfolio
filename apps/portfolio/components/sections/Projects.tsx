@@ -77,14 +77,24 @@ export default function Projects({ showAll = false }: ProjectsProps) {
 
             <div className="flex flex-wrap gap-2">
               {project.sourceLink && (
-                <Button variant="secondary" size="sm" asChild>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  asChild
+                  className="border-primary text-primar dark:text-foreground dark:border-foreground/20"
+                >
                   <a href={project.sourceLink} target="_blank" rel="noopener noreferrer">
                     Source
                   </a>
                 </Button>
               )}
               {project.demoLink && (
-                <Button variant="secondary" size="sm" asChild>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  asChild
+                  className="border-primary text-primar dark:text-foreground dark:border-foreground/20"
+                >
                   <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
                     Demo
                   </a>

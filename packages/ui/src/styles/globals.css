@@ -9,12 +9,12 @@
 
 :root {
   --background: #fdf9ee;
-  --foreground: #575757;
+  --foreground: #181818;
   --card: oklch(0.9552 0.0234 90.7518);
   --card-foreground: oklch(0.1408 0.0044 285.8229);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.1408 0.0044 285.8229);
-  --primary: #4fe1a9;
+  --primary: #409657;
   --primary-foreground: oklch(0.9842 0.0034 247.8575);
   --secondary: oklch(0.9197 0.004 286.3202);
   --secondary-foreground: oklch(0.2103 0.0059 285.8852);

@@ -63,7 +63,7 @@ export default function Experience() {
               <div className="text-muted-foreground text-sm">{exp.location}</div>
             </div>
 
-            <p className="text-muted-foreground mt-3 leading-relaxed">{exp.description}</p>
+            <p className="mt-3 leading-relaxed">{exp.description}</p>
 
             <div className="mt-4 flex flex-wrap gap-2">
               {exp.technologies.map(tech => (
