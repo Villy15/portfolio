@@ -155,3 +155,11 @@ To use the components in your app, import them from the `ui` package.
 ```tsx
 import { Button } from '@workspace/ui/components/button';
 ```
+
+## Adding components
+
+To add shadcn components to your app, run the following command at the root of your `portfolio` app:
+
+```bash
+pnpm dlx shadcn@latest add button -c apps/portfolio
+```

@@ -4,6 +4,8 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 
+import AppHeader from '@/components/layout/AppHeader';
+import Footer from '@/components/layout/Footer';
 import { ThemeProvider } from '@/components/theme-provider';
 
 const geistSans = Geist({
@@ -27,10 +29,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+    <html lang="en" suppressHydrationWarning className="h-full">
+      <body className={`${geistSans.variable} ${geistMono.variable} flex min-h-full flex-col antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
-          {children}
+          <AppHeader />
+          <main className="max-w-screen flex-1 overflow-x-hidden px-4 pb-8 pt-24 md:px-8">
+            <div className="mx-auto md:max-w-3xl">{children}</div>
+          </main>
+          <Footer />
         </ThemeProvider>
 
         <SpeedInsights />
