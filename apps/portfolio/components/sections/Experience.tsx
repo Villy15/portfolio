@@ -7,7 +7,7 @@ export default function Experience() {
       period: 'Jul 2025 – present',
       type: 'Freelance',
       description:
-        'Developed a full-stack clinic EMR system featuring patient management, medical records, and a patient queue module—enabling doctors to efficiently manage consultations and generate digital prescriptions and medical certificates through a modern, responsive web interface. Also developed OrgProfiler, a portable, training-free platform for automated organoid image analysis.',
+        'Designed and implemented OrgProfiler, a portable, training-free platform for automated brightfield and fluorescence image analysis, rapidly quantifying organoid size, shape, and structural features across diverse culture methods to generate standardized morphometric profiles.',
       technologies: ['React', 'Node.js', 'PostgreSQL', 'Next.js', 'Python', 'FastAPI'],
     },
     {
